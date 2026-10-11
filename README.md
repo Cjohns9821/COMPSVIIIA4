@@ -75,7 +75,7 @@ For an application like the one you containerized, Docker ensures every develope
 This leads to smoother collaboration, simpler CI/CD pipelines, and more reliable production deployments.
 
 Also, on a less professional note, it hurts to admit I had successfully activated the port and didn't realize it was open because I was working in Github Codespaces.
-About 10 minutes testing different command to find the port before realizing there's a button that loudly announces itself as PORTS. 
+About 10 minutes testing different commands to find the port before realizing there's a button that loudly announces itself as PORTS. 
 I was running around in Command Prompt, Docker and Git before I saw PORTS. I thought I should add that to my document.
 
 
