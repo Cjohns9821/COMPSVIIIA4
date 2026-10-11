@@ -57,7 +57,8 @@ https://automatic-orbit-x56r6jr5jwqrf69vr-3000.app.github.dev/api/status
 Docker containers differ from virtual machines because containers share the host operating system’s kernel, while virtual machines each run their own full guest operating system.  
 This makes containers much lighter, faster to start, and more resource‑efficient than VMs.
 
-A virtual machine includes an entire OS, its own kernel, and hardware virtualization. Because of that, VMs take longer to boot, use more memory and CPU, and require more overhead to manage.
+A virtual machine includes an entire OS, its own kernel, and hardware virtualization. 
+Because of that, VMs take longer to boot, use more memory and CPU, and require more overhead to manage.
 
 A Docker container, on the other hand, packages only the application and its dependencies. It runs on top of the host OS kernel, which means:
 
@@ -70,7 +71,8 @@ They are easier to ship, update, and scale
 They behave the same in every environment (“works on my machine” goes away)
 
 A development team would choose Docker containers over VMs because containers make deployment faster, more consistent, and more efficient.  
-For an application like the one you containerized, Docker ensures every developer and every environment runs the exact same setup — no OS differences, no missing dependencies, and no configuration drift. This leads to smoother collaboration, simpler CI/CD pipelines, and more reliable production deployments.
+For an application like the one you containerized, Docker ensures every developer and every environment runs the exact same setup — no OS differences, no missing dependencies, and no configuration drift. 
+This leads to smoother collaboration, simpler CI/CD pipelines, and more reliable production deployments.
 
 Also, on a less professional note, it hurts to admit I had successfully activated the port and didn't realize it was open because I was working in Github Codespaces.
 About 10 minutes testing different command to find the port before realizing there's a button that loudly announces itself as PORTS. 
