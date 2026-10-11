@@ -39,16 +39,17 @@ Your task is to containerize this existing application using Docker. You need to
 ## Starting the Application
 
 - To build the docker image run the command:
-docker build -t compsviii-a4 .
 
-```bash
+
+docker build -t compsviii-a4
 
 ```
 
 - To run your docker container in port 3000 run the command:
+
+
 docker run -d -p 3000:3000 compsviii-a4
 
-```bash
 
 ```
 
